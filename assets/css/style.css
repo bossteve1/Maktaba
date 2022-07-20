@@ -10,7 +10,16 @@
     width: 100%;
     justify-content: space-between;
 }
+.header{
+    margin-left: 2%;
+    color: #1f34ed;
+    margin-left: 10px;
+}
 
+.button{
+
+border-radius: 50px;
+}
 .list {
     margin-top: 1%;
     background-color: #867D2A;
@@ -18,14 +27,14 @@
 
 a {
 
-    padding: 10px;
+    padding: 70px;
     text-decoration: none;
     color: rgb(8, 0, 0);
     border: none;
-    margin-top: 20%;
+    padding-top: 20%;
     margin-top: 3%;
     font-size: 20px;
-
+margin-left: 20px;
 
 }
 
@@ -89,6 +98,7 @@ u {
     padding: 35px;
     height: 400px;
     font-size: 11px;
+    text-orientation: upright;
 }
 
 /* end of contaniner1 */
