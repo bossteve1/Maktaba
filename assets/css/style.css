@@ -1,7 +1,5 @@
 .body {
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #1f34ed;
+    background-color: #d0d1df;
 }
 
 .topnav {
@@ -13,6 +11,13 @@
     justify-content: space-between;
 }
 
+.header {
+    margin-left: 2%;
+    color: #1f34ed;
+    margin-left: 10px;
+
+}
+
 .list {
     margin-top: 1%;
     background-color: #867D2A;
@@ -20,13 +25,14 @@
 
 a {
 
-    padding: 10px;
+    padding: 70px;
     text-decoration: none;
     color: rgb(8, 0, 0);
     border: none;
-    margin-top: 20%;
+    padding-top: 20%;
     margin-top: 3%;
-
+    font-size: 20px;
+    margin-left: 20px;
 
 }
 
@@ -35,13 +41,30 @@ a {
 }
 
 .button {
+    border-radius: 50px;
     padding: 10px;
     height: fit-content;
-    background-color: #1f34ed;
+    background-color: #53ca72;
     color: antiquewhite;
     border: none;
-    margin-top: 3%;
+    width: fit-content;
+    margin-top: 4%;
     margin-right: 2%;
+}
+
+.search {
+    margin-top: 2%;
+    margin-left: 80%;
+
+
+}
+
+.list {
+    border-radius: 70px;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    height: 50px;
+    align-items: center;
 }
 
 u {
@@ -60,6 +83,7 @@ u {
     height: 400px;
     justify-content: space-between;
     width: 100%;
+    margin-top: 2%;
 
 }
 
@@ -76,6 +100,17 @@ u {
     padding: 35px;
     height: 400px;
     font-size: 11px;
+    text-orientation: upright;
+}
+
+@keyframes image1 {
+    from {
+        background-image: red;
+    }
+
+    to {
+        background-image: blue;
+    }
 }
 
 /* end of contaniner1 */
@@ -85,7 +120,7 @@ u {
     flex: 1;
 
     width: 100%;
-    background-color: #867D2A;
+
     padding: 5px 3px;
     height: auto;
     margin: 0px;
@@ -94,7 +129,7 @@ u {
 
 .container2 .each_data {
     width: auto;
-    background-color: ghostwhite;
+    background-color: grey;
     margin: 0.5%;
     height: 200px;
     min-width: 20%;
@@ -131,24 +166,35 @@ u {
     padding: 2px;
     height: fit-content;
     align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
 
 }
 
 /* start of footer */
 .footer {
+
     display: flex;
     background-color: #867D2A;
-    flex-wrap: wrap;
-    padding: 10px 6px;
-    flex: 1;
-    margin: 10px 0;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    height: fit-content;
     width: 100%;
-    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    /* display: flex;
+    background-color: #867D2A;
+    flex-wrap: wrap;
+    
+    flex: 1;
+   
+    width: 100%;
+    color: aliceblue; */
 
 }
 
 .footer .item {
-    width: auto;
+   
     margin: 0.5%;
     min-width: 22%;
     border-radius: 4px;
