@@ -84,3 +84,8 @@ img{
     #footers>img{
         height: 30px;
     }
+    button{
+        background-color: #3163AF;
+        color: white;
+        border-radius: 60px;
+    }
