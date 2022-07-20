@@ -29,3 +29,6 @@ body{
 img{
     height: 100px;
 }
+.header{
+    display: flex;
+}
