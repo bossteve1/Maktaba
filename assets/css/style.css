@@ -1,7 +1,5 @@
 .body {
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #1f34ed;
+    background-color: #d0d1df;
 }
 
 .topnav {
@@ -26,6 +24,7 @@ a {
     border: none;
     margin-top: 20%;
     margin-top: 3%;
+    font-size: 20px;
 
 
 }
@@ -42,6 +41,19 @@ a {
     border: none;
     margin-top: 3%;
     margin-right: 2%;
+}
+.search{
+margin-top: 2%;
+  margin-left: 80%;
+
+}
+
+.list{
+    border-radius: 70px;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    height: 50px;
+    align-items: center;
 }
 
 u {
@@ -86,7 +98,7 @@ u {
     flex: 1;
 
     width: 100%;
-    background-color: #867D2A;
+
     padding: 5px 3px;
     height: auto;
     margin: 0px;
@@ -95,7 +107,7 @@ u {
 
 .container2 .each_data {
     width: auto;
-    background-color: ghostwhite;
+    background-color:grey;
     margin: 0.5%;
     height: 200px;
     min-width: 20%;
