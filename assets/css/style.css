@@ -1,0 +1,159 @@
+.body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1f34ed;
+}
+
+.topnav {
+    display: flex;
+    background-color: #867D2A;
+    color: white;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list {
+    margin-top: 1%;
+    background-color: #867D2A;
+}
+
+a {
+
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(8, 0, 0);
+    border: none;
+    margin-top: 20%;
+    margin-top: 3%;
+
+
+}
+
+.login {
+    margin-top: 4%;
+}
+
+.button {
+    padding: 10px;
+    height: fit-content;
+    background-color: #1f34ed;
+    color: antiquewhite;
+    border: none;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+u {
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 2px;
+}
+
+/* end of top nav */
+
+.contaniner1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    height: fit-content;
+    height: 400px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.image1 {
+    padding-right: 35px;
+    display: flex;
+    width: 65%;
+    float: left;
+    padding-bottom: 0%;
+
+}
+
+.right {
+    padding: 35px;
+    height: 400px;
+    font-size: 11px;
+}
+
+/* end of contaniner1 */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+    width: 100%;
+    background-color: #867D2A;
+    padding: 5px 3px;
+    height: auto;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.container2 .each_data {
+    width: auto;
+    background-color: ghostwhite;
+    margin: 0.5%;
+    height: 200px;
+    min-width: 20%;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 4px;
+
+
+}
+
+.container2 .each_data p {
+    font-size: 24px;
+    margin: 2px auto;
+}
+
+.data1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+
+    width: 100%;
+    padding: 10px 6px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.data1 .each_data {
+    width: auto;
+    background-color: ghostwhite;
+    margin: 0.5%;
+    min-width: 30%;
+    border-radius: 4px;
+    padding: 2px;
+    height: fit-content;
+    align-items: center;
+
+}
+
+/* start of footer */
+.footer {
+    display: flex;
+    background-color: #867D2A;
+    flex-wrap: wrap;
+    padding: 10px 6px;
+    flex: 1;
+    margin: 10px 0;
+    width: 100%;
+    color: aliceblue;
+
+}
+
+.footer .item {
+    width: auto;
+    margin: 0.5%;
+    min-width: 22%;
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+
+
+}
