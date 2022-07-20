@@ -66,3 +66,15 @@ img{
         
         
     } 
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+        background-color: #867D2A;
+        margin-top: 50px;
+        height: 100px;
+        
+        
+        
+    
+    }
