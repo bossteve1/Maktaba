@@ -81,3 +81,6 @@ img{
     #footers{
         color: white;
     }
+    #footers>img{
+        height: 30px;
+    }
