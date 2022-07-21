@@ -23,3 +23,7 @@
     padding-right: 20%;
     
 }
+.navbar a{
+    text-decoration: none;
+    font-size: larger;
+}
