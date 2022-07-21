@@ -27,3 +27,6 @@
     text-decoration: none;
     font-size: larger;
 }
+.center>img{
+    margin-left: 250px;
+}
