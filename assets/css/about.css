@@ -34,3 +34,13 @@
     text-align: center;
     font-size: xx-large;
 }
+
+italic{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+strong{
+    color: #FBE30D;
+}
