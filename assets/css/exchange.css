@@ -66,7 +66,7 @@ img{
         
         
     } 
-    .footer{
+    /* .footer{
         display: flex;
         justify-content: space-between;
         padding: 5%;
@@ -83,7 +83,7 @@ img{
     }
     #footers>img{
         height: 30px;
-    }
+    } */
     button{
         background-color: #3163AF;
         color: white;
@@ -103,3 +103,44 @@ img{
         overflow-y: scroll;
         display: none;
     }
+    .footer {
+
+        display: flex;
+        background-color: #867D2A;
+        color: white;
+        margin: 10px 10px 10px 10px;
+        height: fit-content;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+        /* display: flex;
+        background-color: #867D2A;
+        flex-wrap: wrap;
+        
+        flex: 1;
+       
+        width: 100%;
+        color: aliceblue; */
+      
+    }
+    
+    .footer .item {
+       
+        margin: 0.5%;
+        min-width: 22%;
+        border-radius: 4px;
+        padding: 2px;
+        color: white;
+    
+    
+    }
+    italic{
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    strong{
+        color: #FBE30D;
+    }    

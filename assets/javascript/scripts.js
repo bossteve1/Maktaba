@@ -1,6 +1,8 @@
-$(document).ready(function(){
-
-    $('.read_more').click(function(){
-        $('.details').show();
-    });
-})
+function myFunction() {
+    var x = document.getElementById("details");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
