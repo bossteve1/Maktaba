@@ -101,5 +101,5 @@ img{
         height: 25%;
         background-color: #EBE7E7;
         overflow-y: scroll;
-        /* display: none; */
+        display: none;
     }
