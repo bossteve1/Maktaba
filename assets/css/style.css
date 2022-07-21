@@ -1,5 +1,7 @@
 .body {
     background-color: #d0d1df;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .topnav {
@@ -182,15 +184,7 @@ u {
     padding-left: 10px;
     padding-right: 10px;
     justify-content: space-between;
-    /* display: flex;
-    background-color: #867D2A;
-    flex-wrap: wrap;
-    
-    flex: 1;
    
-    width: 100%;
-    color: aliceblue; */
-
 }
 
 .footer .item {
